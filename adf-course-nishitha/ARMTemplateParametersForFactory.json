@@ -10,6 +10,9 @@
 		},
 		"LinkedServiceDL_properties_typeProperties_url": {
 			"value": "https://storagedatafactorynishh.dfs.core.windows.net/"
+		},
+		"Linked_git_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
 		}
 	}
 }

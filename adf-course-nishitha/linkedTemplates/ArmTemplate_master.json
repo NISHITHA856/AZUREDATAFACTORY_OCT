@@ -15,6 +15,10 @@
 			"type": "string",
 			"defaultValue": "https://storagedatafactorynishh.dfs.core.windows.net/"
 		},
+		"Linked_git_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -47,6 +51,9 @@
 					},
 					"LinkedServiceDL_properties_typeProperties_url": {
 						"value": "[parameters('LinkedServiceDL_properties_typeProperties_url')]"
+					},
+					"Linked_git_properties_typeProperties_url": {
+						"value": "[parameters('Linked_git_properties_typeProperties_url')]"
 					}
 				}
 			},
