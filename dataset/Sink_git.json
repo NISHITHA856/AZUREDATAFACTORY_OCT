@@ -1,5 +1,5 @@
 {
-	"name": "Sink_csv",
+	"name": "Sink_git",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LinkedServiceDL",
@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"folderPath": "CSVFILES",
 				"fileSystem": "destination"
 			},
 			"columnDelimiter": ",",

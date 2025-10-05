@@ -1,16 +1,16 @@
 {
-	"name": "Sink_csv",
+	"name": "Source_git",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LinkedServiceDL",
+			"referenceName": "Linked_git",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobFSLocation",
-				"fileSystem": "destination"
+				"type": "HttpServerLocation",
+				"relativeUrl": "anshlambagit/Azure-Data-Factory/refs/heads/main/Raw%20Data/Fact_Sales_2.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
