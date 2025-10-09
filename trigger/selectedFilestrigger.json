@@ -10,7 +10,7 @@
 					"type": "PipelineReference"
 				},
 				"parameters": {
-					"": "Fact_Sales_1.csv"
+					"p_filename": "Fact_Sales_1.csv"
 				}
 			}
 		],
