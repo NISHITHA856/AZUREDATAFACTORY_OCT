@@ -8,6 +8,9 @@
 				"pipelineReference": {
 					"referenceName": "OnlySelectedfiles",
 					"type": "PipelineReference"
+				},
+				"parameters": {
+					"": "salesdata.csv"
 				}
 			}
 		],
