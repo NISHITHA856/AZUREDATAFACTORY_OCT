@@ -8,9 +8,6 @@
 				"pipelineReference": {
 					"referenceName": "OnlySelectedfiles",
 					"type": "PipelineReference"
-				},
-				"parameters": {
-					"": "p_filename"
 				}
 			}
 		],
@@ -19,7 +16,7 @@
 			"recurrence": {
 				"frequency": "Minute",
 				"interval": 10,
-				"startTime": "2025-10-08T07:39:00",
+				"startTime": "2025-10-09T08:05:00",
 				"endTime": "2025-10-09T06:20:50",
 				"timeZone": "India Standard Time"
 			}
