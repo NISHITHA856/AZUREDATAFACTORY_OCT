@@ -10,7 +10,7 @@
 					"type": "PipelineReference"
 				},
 				"parameters": {
-					"": "salesdata.csv"
+					"": "0"
 				}
 			}
 		],
