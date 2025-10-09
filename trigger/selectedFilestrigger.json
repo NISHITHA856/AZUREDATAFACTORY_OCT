@@ -10,7 +10,7 @@
 					"type": "PipelineReference"
 				},
 				"parameters": {
-					"": "0"
+					"": "p_filename"
 				}
 			}
 		],
