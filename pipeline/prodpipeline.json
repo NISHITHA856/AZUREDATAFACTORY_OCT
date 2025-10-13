@@ -34,7 +34,17 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"waitOnCompletion": true
+					"pipeline": {
+						"referenceName": "OnlySelectedfiles",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true,
+					"parameters": {
+						"p_filename": {
+							"value": "@activity('ExecutemanagerPipeline').output",
+							"type": "Expression"
+						}
+					}
 				}
 			}
 		],
